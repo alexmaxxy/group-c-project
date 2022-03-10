@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "9fafb975-d34e-4e5d-8f6b-3845604321b6"
+        },
+        "name": {
+            "value": "webappgc0"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-AzurePOCLabBatch12-9f76"
+        },
+        "serverFarmResourceGroup": {
+            "value": "Azure-POC-Lab-Batch_1-2"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "currentStack": {
+            "value": "dotnet"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "netFrameworkVersion": {
+            "value": "v5.0"
+        }
+    }
+}
